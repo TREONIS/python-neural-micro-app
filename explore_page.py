@@ -1,10 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-#import seaborn as sns
-#from shapely.geometry import Point
-#import geopandas as gpd
-#from geopandas import GeoDataFrame
 from PIL import Image
 
 @st.cache
