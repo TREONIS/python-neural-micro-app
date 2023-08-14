@@ -27,16 +27,14 @@ def show_explore_page():
     st.write(
     """
     ### Example training route
-    """
-    )
+    """)
     image = Image.open('./images/route_run.png')
     st.image(image, caption='',use_column_width=True)
     
     st.write(
     """
     ### Heart rate history of individual user
-    """
-    )
+    """)
     image = Image.open('./images/hr_history.png')
     st.image(image, caption='',use_column_width=True)
     
@@ -44,8 +42,7 @@ def show_explore_page():
     st.write(
     """
     ### Heart rate and Altitude
-    """
-    )
+    """)
     image = Image.open('./images/hr_session_detail.png')
     st.image(image, caption='',use_column_width=True)
     
